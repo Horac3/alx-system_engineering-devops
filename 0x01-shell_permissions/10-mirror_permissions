@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod $(stat -c "%a" olleh) hello && chown $(stat -c "%U:%G" olleh) hello
+chmod --reference-olleh hello
