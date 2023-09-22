@@ -1,2 +1,2 @@
-Learning more devops
+Learning more devops particulary how to use puppet
 
