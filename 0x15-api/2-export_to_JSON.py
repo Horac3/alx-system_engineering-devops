@@ -13,10 +13,16 @@ Args:
 Example Usage:
     python script.py 1
 
-    In this example, the script is executed with the command line argument "1" to specify the user ID. The code snippet will retrieve the user's information and to-do list from the API, and then write the data to a JSON file named "1.json".
+    In this example, the script is executed with the command line
+    argument "1" to specify the user ID.
+    The code snippet will retrieve the user's information and
+    to-do list from the API, and then write
+    the data to a JSON file named "1.json".
 
 Outputs:
-    A JSON file containing the user's to-do list information. The file is named after the user ID and has the following structure:
+    A JSON file containing the user's to-do list information.
+    The file is named after the user ID and
+    has the following structure:
     {
         "user_id": [
             {

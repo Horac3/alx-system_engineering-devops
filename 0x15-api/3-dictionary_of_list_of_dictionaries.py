@@ -5,14 +5,16 @@ import requests
 
 
 """
-Retrieves to-do list information for all employees from a REST API and exports it to a JSON file.
+Retrieves to-do list information for all employees from
+a REST API and exports it to a JSON file.
 
 Inputs:
 - url: A string representing the base URL of the REST API.
 - users: A list of dictionaries containing information about the users.
 
 Outputs:
-- A JSON file named "todo_all_employees.json" containing the to-do list information for all employees.
+- A JSON file named "todo_all_employees.json"
+containing the to-do list information for all employees.
 """
 
 ## Begin Code Snippet ##
