@@ -5,7 +5,7 @@ import requests as r
 import sys
 
 """
-This script exports user information and to-do list 
+This script exports user information and to-do list
 from a REST API and writes them to a CSV file.
 
 Usage:
@@ -22,10 +22,11 @@ Flow:
     5. The user's to-do list is retrieved from the API using the user ID.
     6. A CSV file is opened for writing, named after the user ID.
     7. A CSV writer is created.
-    8. For each to-do item, a row is written to the CSV file containing 
+    8. For each to-do item, a row is written to the CSV file containing
     the user ID, username, completion status, and title.
 Outputs:
-    None. The script writes the data to a CSV file but does not return any value.
+    None. The script writes the data to a CSV file but does not '
+    return any value.
 """
 
 if __name__ == "__main__":
