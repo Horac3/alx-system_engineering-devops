@@ -17,7 +17,6 @@ Outputs:
 containing the to-do list information for all employees.
 """
 
-## Begin Code Snippet ##
 if __name__ == "__main__":
     url = "https://jsonplaceholder.typicode.com/"
     users = requests.get(url + "users").json()
